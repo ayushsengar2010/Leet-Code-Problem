@@ -3,7 +3,6 @@ public:
     int maxBottlesDrunk(int numBottles, int numExchange) {
         int totalDrunk = numBottles;
         int empty = numBottles;
-
         while (empty >= numExchange) {
             empty -= numExchange;
             int newBottle = 1;
@@ -11,7 +10,6 @@ public:
             empty += newBottle;
             numExchange++;  
         }
-
         return totalDrunk;
     }
 };
