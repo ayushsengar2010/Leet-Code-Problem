@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int myAtoi(string s) {
         int i = 0, sign = 1;
         long res = 0; 
