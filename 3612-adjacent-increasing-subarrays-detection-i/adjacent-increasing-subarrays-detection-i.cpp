@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     bool hasIncreasingSubarrays(vector<int>& nums, int k) {
         int n = nums.size();
         for (int i = 0; i <= n - 2 * k; i++) {
