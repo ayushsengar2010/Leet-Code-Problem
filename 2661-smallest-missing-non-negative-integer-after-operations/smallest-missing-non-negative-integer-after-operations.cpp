@@ -1,5 +1,6 @@
 class Solution {
 public:
+
 	int findSmallestInteger(vector<int>& nums, int v) {
 		long long n = nums.size(), x, res = 0;
 		vector<int> rem(v, 0);
