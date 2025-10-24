@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     bool hasSameDigits(string s) {
         while (s.size() > 2) {
             string t;
