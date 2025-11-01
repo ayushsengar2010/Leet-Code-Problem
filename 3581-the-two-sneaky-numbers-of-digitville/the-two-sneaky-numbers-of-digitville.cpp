@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     vector<int> getSneakyNumbers(vector<int>& nums) {
         int n = nums.size() - 2;
         vector<int> freq(n, 0);
