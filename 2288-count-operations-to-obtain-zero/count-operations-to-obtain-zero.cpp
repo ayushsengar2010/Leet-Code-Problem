@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int countOperations(int n1, int n2) {
         int c = 0;
         while (n1 > 0 && n2 > 0) {
